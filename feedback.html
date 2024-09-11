@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html>
+<head>
+    
+    <title>Document</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+<style>
+     .nav{
+            border: 2px solid grey;
+            width: 100%;
+            height: 60px;
+            display: flex;
+            flex-direction: row;
+            justify-content: space-evenly;
+            padding-top: 30px;
+            position: fixed;
+            top: 2px;
+            background-color: grey;
+            font-size: 20px;
+           
+        }
+        a{
+            text-decoration: none;
+        }
+        
+       a:hover{
+            text-decoration: underline;
+            color: aliceblue;
+        }
+        .foter{
+        border:2px solid grey;
+        width: 100%;
+        height: 300px;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-evenly;
+        margin-top: 300px;
+        gap: 30px;
+        padding-top: 50px;
+       }
+       body{
+        background-image: url(./Images/bg3.avif);
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: cover;
+        background-attachment: fixed;
+       
+        
+       }
+       address{
+        color: aliceblue;
+       }
+       input{
+        margin-left: 80px;
+       }
+       .form{
+        margin-left: 140px;
+       }
+       h3{
+        
+        font-size: 30px;
+       }
+       button{
+        padding: 10px;
+        border-radius: 10px;
+        background-color: rgb(112, 17, 237);
+        color: white;
+        margin-left: 80px;
+       }
+       button:hover{
+        transform: rotate(12deg);
+       }
+       #main{
+        animation-name: suresh;
+        animation-duration: 2s;
+        animation-iteration-count: infinite;
+        
+
+
+       }
+     @keyframes suresh{
+        0%{
+            background-color: aqua;
+            color: red;
+        }
+        100%{
+          background-color: blue;
+          color: rgb(192, 255, 208);
+        }
+     }
+       
+       .av{
+       margin-left: 20px;
+       margin-top: 200px;
+       }
+       img:hover{
+        transform: rotate(20deg);
+      }
+</style>
+</head>
+<body>
+    <nav>
+        <div class="nav">
+           
+            <i class="fa-solid fa-camera"></i>
+            <h3 >MS TOURISM</h3> 
+            <a href="index.html">HOME</a>
+            <a href="heritage.html">Heritage</a>
+            <a href="gallery.html">Gallery</a>
+            <a href="feedback.html">Feedback</a>
+            <a href="hotels.html">Hotels</a>
+     
+        </nav>
+        <div class="av">
+            <h3>Audio Feedback:</h3>
+            <audio controls src="./AV clips/flowers-of-the-forest-11063.mp3"></audio>
+            <h3>Viedoe Feedback:</h3>
+            <video controls src="./AV clips/855564-hd_1920_1080_24fps.mp4" width="350px"></viedoe>
+
+        </div>
+       
+   <div>
+    <footer >
+        <div class="foter">
+        <address>
+            Agra Fort (1983) <br>
+            Ajanta Caves (1983) <br>
+            Archaeological Site of Nalanda <br>brMahavihara at Nalanda, Bihar (2016)
+           -INDIA
+        </address>
+        
+            <a href="https://asi.nic.in/pages/World-Heritage/HQ"><img src="./Images/map.png" alt="" width="330px" height="250px"></a>
+           <div> <h3>Enquiry Form :</h3>
+            
+           <div><label for="">Name :</label><input type="text" class="form"> </div> <br>
+           <div><label for="">Mail :</label><input type="text" class="form"> </div><br>
+            <div><label for="">Phone Number :</label><input type="text"></div> <br>
+                <div><label for="">No of members :</label><input type="text"></div> <br>
+            <button>SUBMIT</button></div>
+    </div>
+    </footer>
+</body>
+</html>

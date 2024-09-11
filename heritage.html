@@ -1,0 +1,193 @@
+<!DOCTYPE html>
+<html>
+<head>
+    
+    <title>Document</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+<style>
+    .nav{
+            border: 2px solid grey;
+            width: 100%;
+            height: 60px;
+            display: flex;
+            flex-direction: row;
+            justify-content: space-evenly;
+            padding-top: 30px;
+            position: fixed;
+            top: 2px;
+            background-color: grey;
+            font-size: 20px;
+           
+        }
+    a{
+            text-decoration: none;
+        }
+        a:hover{
+            text-decoration: underline;
+            color: aliceblue;
+        }
+        .foter{
+        border:2px solid grey;
+        width: 100%;
+        height: 300px;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-evenly;
+        margin-top: 300px;
+        gap: 30px;
+        padding-top: 50px;
+       }
+       #heritage{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-evenly;
+        flex-wrap: wrap;
+        gap: 50px;
+        margin-top: 160px;
+       }
+       .heritagee{
+        border: 2px solid grey;
+        width: 300px;
+        height: 200px;
+       
+       }
+       body{
+        background-image: url(./Images/bg3.avif);
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: cover;
+        background-attachment: fixed;
+       
+        
+       }
+       address{
+        color: aliceblue;
+       }
+       input{
+        margin-left: 80px;
+       }
+       .form{
+        margin-left: 140px;
+       }
+       h3{
+        
+        font-size: 30px;
+       }
+       button{
+        padding: 10px;
+        border-radius: 10px;
+        background-color: rgb(112, 17, 237);
+        color: white;
+        margin-left: 80px;
+       }
+       button:hover{
+        transform: rotate(12deg);
+       }
+       #main{
+        animation-name: suresh;
+        animation-duration: 2s;
+        animation-iteration-count: infinite;
+        
+
+
+       }
+     @keyframes suresh{
+        0%{
+            background-color: aqua;
+            color: red;
+        }
+        100%{
+          background-color: blue;
+          color: rgb(192, 255, 208);
+        }
+     }
+
+</style>
+</head>
+<body>
+    <nav>
+        <div class="nav">
+           
+            <i class="fa-solid fa-camera"></i>
+            <h3 id="main">MS TOURISM</h3> 
+            <a href="index.html">HOME</a>
+            <a href="heritage.html">Heritage</a>
+            <a href="gallery.html">Gallery</a>
+            <a href="feedback.html">Feedback</a>
+            <a href="hotels.html">Hotels</a>
+        </nav>
+        <div id="heritage">
+        <div class="heritagee">
+            <figure>
+            
+           <a href="heritagee.html"><img src="./Images/af.jpg" alt="" width="200px"> AGRA FORT</a>
+          
+        </figure>
+        </div>
+        <div class="heritagee">
+            <figure>
+                <a href="Ajanta.html"><img src="./Images/he2.jpg" alt="" width="200px">Ajanta Caves  </a>
+        </figure>
+        </div>
+        <div class="heritagee">
+            <figure>
+                <a href="National.html"><img src="./Images/he3.cms" alt="" width="200px">Great Himalayan National Park </a>
+        </figure>
+        </div>
+        <div class="heritagee">
+            <figure>
+                <a href="heritagee.html"><img src="./Images/he4.webp" alt="" width="200px">Buddhist Monuments at Sanchi  </a>
+        </figure>
+        </div>
+        <div class="heritagee">
+            <figure>
+                <a href="heritagee.html"><img src="./Images/he5.avif" alt="" width="200px"> Elephanta Caves </a>
+        </figure>
+        </div>
+        <div class="heritagee">
+            <figure>
+                <a href="heritagee.html"><img src="./Images/he6.jpg" alt="" width="200px"> Ellora Caves </a>
+        </figure>
+        </div>
+        <div class="heritagee">
+            <figure>
+                <a href="heritagee.html"><img src="./Images/he7.avif" alt="" width="200px">Hampi </a>
+        </figure>
+        </div>
+        <div class="heritagee">
+            <figure>
+                <a href="heritagee.html"><img src="./Images/he8.avif" alt="" width="200px"> Arches  </a>
+        </figure>
+        </div>
+        <div class="heritagee">
+            <figure>
+                <a href="heritagee.html"><img src="./Images/he9.avif" alt="" width="200px">Taj Mahal  </a>
+        </figure>
+        </div>
+        <div class="heritagee">
+            <figure>
+                <a href="heritagee.html"><img src="./Images/he10.avif" alt="" width="200px">Bundela  </a>
+        </figure>
+        </div>
+    <footer >
+    </div>
+        <div class="foter">
+        <address>
+            Agra Fort (1983) <br>
+            Ajanta Caves (1983) <br>
+            Archaeological Site of Nalanda <br>brMahavihara at Nalanda, Bihar (2016)
+           -INDIA
+        </address>
+        
+            <a href="https://asi.nic.in/pages/World-Heritage/HQ"><img src="./Images/map.png" alt="" width="330px" height="250px"></a>
+           <div> <h3>Enquiry Form :</h3>
+            
+           <div><label for="">Name :</label><input type="text" class="form"> </div> <br>
+           <div><label for="">Mail :</label><input type="text" class="form"> </div><br>
+            <div><label for="">Phone Number :</label><input type="text"></div> <br>
+                <div><label for="">No of members :</label><input type="text"></div> <br>
+            <button>SUBMIT</button></div>
+    </div>
+    </footer>
+</body>
+</html>

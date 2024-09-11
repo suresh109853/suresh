@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <title>Document</title>
+    <style>
+        .nav{
+            border: 2px solid grey;
+            width: 100%;
+            height: 60px;
+            display: flex;
+            flex-direction: row;
+            justify-content: space-evenly;
+            padding-top: 30px;
+            position: fixed;
+            top: 2px;
+            background-color: grey;
+            font-size: 20px;
+           
+        }
+        a{
+            text-decoration: none;
+            
+        }
+        a:hover{
+            text-decoration: underline;
+            color: aliceblue;
+        }
+
+       .AU{
+        display: flex;
+        flex-direction: row;
+        justify-content:space-evenly;
+        color: aliceblue;
+       }
+       #AUI{
+        border: 2px solid grey;
+        border-radius: 10px;
+        width: 400px;
+        height: 300px;
+       }
+      img:hover{
+        transform: rotate(20deg);
+      }
+       #of{
+        font-size: 35px;
+        margin-top: 90px;
+        background-color: aqua;
+       }
+       .foter{
+        border:2px solid grey;
+        width: 100%;
+        height: 300px;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-evenly;
+        margin-top: 300px;
+        gap: 30px;
+        padding-top: 50px;
+       }
+       h2{
+        color: rgb(192, 62, 7);
+       }
+       h2:hover{
+        color: rgb(255, 0, 149);
+       }
+       #bg{
+        background-image: url(./Images/bg.jpeg);
+        width: 100%;
+        height: 300vh;
+       }
+       body{
+        background-image: url(./Images/bg3.avif);
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: cover;
+        background-attachment: fixed;
+       
+        
+       }
+       address{
+        color: aliceblue;
+       }
+       input{
+        margin-left: 80px;
+       }
+       .form{
+        margin-left: 140px;
+       }
+       h3{
+        
+        font-size: 30px;
+       }
+       button{
+        padding: 10px;
+        border-radius: 10px;
+        background-color: rgb(112, 17, 237);
+        color: white;
+        margin-left: 80px;
+       }
+       button:hover{
+        transform: rotate(12deg);
+       }
+       #main{
+        animation-name: suresh;
+        animation-duration: 2s;
+        animation-iteration-count: infinite;
+        position: relative;
+         margin-top: 10px;
+         padding-bottom: 30px;
+
+
+       }
+     @keyframes suresh{
+        0%{
+            background-color: aqua;
+            color: red;
+        }
+        100%{
+          background-color: blue;
+          color: rgb(192, 255, 208);
+        }
+     }
+    </style>
+</head>
+<body>
+    
+    <nav>
+    <div class="nav">
+       
+        <i class="fa-solid fa-camera"></i>
+        <h3 id="main">MS TOURISM</h3> 
+        <a href="index.html">Home</a>
+        <a href="heritage.html">Heritage</a>
+        <a href="gallery.html">Gallery</a>
+        <a href="feedback.html">Feedback</a>
+        <a href="hotels.html">Hotels</a>
+    </nav>
+    </div >
+       <p id="of"><b><marquee> 40% offer</marquee></b></p>
+    </div>
+    <h2>About us:</h2> <br>
+    <div class="AU">
+       
+        <P>A World Heritage Site is a place that is listed by UNESCO for its special cultural or physical significance. The list of World Heritage Sites is maintained by the international 'World Heritage Programme', administered by the UNESCO World Heritage Committee.
+        The United Nations Educational, Scientific and Cultural Organization (UNESCO) seeks to encourage the identification, protection and preservation of cultural and natural heritage around the world considered to be of outstanding value to humanity.
+        This is embodied in an international treaty called the Convention concerning the Protection of the World Cultural and Natural Heritage, adopted by UNESCO in 1972.
+        India has 38 world heritage sites that include 30 Cultural properties, 7 Natural properties and 1 mixed site.Stories have long been a central component to the interpretation of people, culture, and place. Recent research has substantiated the importance of storytelling in heritage tourism settings; however, few studies have provided an overview of storytelling in heritage experience design. This has left academics and service providers alike with little to no guidance as to how to effectively utilize storytelling in their experience offering. This chapter serves to synthetize what is known on the topic of storytelling in heritage experience design. It will explore the relevance of storytelling and experience design in the context of new museology, give an overview of pre-existing frameworks on the subject, and offer a critical analysis highlighting informational gaps and areas of expansion. Beyond guided tours, interpretative signs, and guidebooks, one thing is clear: if they are to facilitate experiences that are more memorable, engaging, and interactive, heritage attractions must utilize storytelling as a design tool.</P>
+        <div>
+            <img src="./Images/op.jpg" alt="" id="AUI">
+        </div>
+    </div>
+    <footer >
+        <div class="foter">
+        <address>
+            <h2> Address:</h2>
+            Agra Fort (1983) <br>
+            Ajanta Caves (1983) <br>
+            Archaeological Site of Nalanda <br>brMahavihara at Nalanda, Bihar (2016)
+           -INDIA
+        </address>
+        
+            <a href="https://asi.nic.in/pages/World-Heritage/HQ"><img src="./Images/map.png" alt="" width="330px" height="250px"></a>
+           <div > <h3>Enquiry Form :</h3>
+            
+           <div ><label for="">Name :</label><input type="text" class="form"> </div> <br>
+           <div ><label for="">Mail :</label><input type="text" class="form"> </div><br>
+            <div><label for="">Phone Number :</label><input type="text"></div> <br>
+                <div><label for="">No of members :</label><input type="text"></div> <br>
+            <button>SUBMIT</button></div>
+    </div>
+    </footer>
+
+</body>
+</html> 
